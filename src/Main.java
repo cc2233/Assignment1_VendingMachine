@@ -31,16 +31,15 @@ public class Main {
 		else
 			throw new Exception("Invalid numFoodInfo");
 		
-		System.out.println("Load: " + numFoodInfo + " Food Infos");
+		System.out.println("Load: " + numFoodInfo + " Food Infos\n");
 		
 		for(int i=0;i<m_foodInfoArray.length;i++) {
 			m_foodInfoArray[i] = new FoodInfo();
 			m_foodInfoArray[i].Load(inputStream);
 		}
-		System.out.println("Load number of machines ");
 		
 		int numMachines = Integer.parseInt(inputStream.nextLine()); //convert line from String to int
-		
+		System.out.println("Load: " + numMachines + " machines\n ");
 		
 		if (numMachines>=2 && numMachines<500) //checking to see if numMachines is at least 2 and a reasonable number
 				m_machinesArray = new VMachine[numMachines];
@@ -113,6 +112,16 @@ public BigDecimal purchase(BigDecimal money, int dispenserNum, int machineNum) t
 public void SimulateCustomers() throws Exception {
 	
 	System.out.println("** START ** Simulating a series of customers ^.^\n");
+	
+
+	
+	//displaying menu
+	for(int i=0;i<m_machinesArray.length;i++) {
+		m_machinesArray[i].printMenu();
+		System.out.println("\n");
+	}
+	
+	
 	
 	int numCustomers = (int)(Math.random()*10.0+11); //generating a random number of customers between 11 and 21
 	int numCustRejected = 0;

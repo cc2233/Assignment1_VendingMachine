@@ -2,7 +2,6 @@ import java.util.*;
 import java.io.*;
 import java.math.*;
 
-
 public class VMachine {
 	private String m_machineName; //giving each machine a name
 	Dispenser[] m_arrayOfDispensers;
@@ -52,7 +51,6 @@ public class VMachine {
 		return m_arrayOfDispensers[i];
 	}
 	
-
 	public BigDecimal getCashBalance() {
 		return m_cashBalance;
 	}
@@ -63,6 +61,20 @@ public class VMachine {
 	
 	public String getMachineName() {
 		return m_machineName;
+	}
+	
+	public void printMenu() {
+		
+		int numDispensers = this.getNumberOfDispensers();
+		Dispenser newDispenser;
+		String itemName;
+		System.out.println(this.getMachineName() + " MENU AT A GLANCE!");
+		for(int i=0;i<numDispensers;i++) {
+			newDispenser = this.getDispenser(i);
+			itemName = newDispenser.getFoodName();
+			System.out.println(itemName);
+		
+		}
 	}
 	
 }

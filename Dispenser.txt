@@ -1,0 +1,118 @@
+22
+Orange Juice
+1.50
+Extra pulp and added freshness!
+Apple Cider
+3.50
+Crisp and sweet at the same time!
+Grape Soda
+2.00
+The real taste of grapes!
+Water
+1.00
+Fresh tap water in a plastic bottle.
+Soda Water
+1.00
+It's water but with sparkles!
+Fruit Punch
+2.50
+A delicious punch made of apples, bananas, peaches, mangos, and berries!
+Fat Tire
+4.50
+This is a delicious Belgian style beer, with a buttery smooth after-taste. 1 kcal.
+Orange Soda
+2.50
+Better than Orange Juice.
+Peach Soda
+2.50
+Better than Orange Soda
+Pina Colada
+5.00
+Enjoy the tasty tropical treat!
+Green Tea
+3.00
+You know you're making a healthy choice.
+Mint Gum
+2.00
+Your fresh minty breath!
+Potato Chips
+1.50
+Plain, lightly salted potato chips.
+Protein Bar
+3.00
+Get your dose of protein right now!
+Chocolate
+3.00
+Sweet sweet mood booster
+Apples
+1.00
+Eat an apple, stay healthy!
+Salted Crackers
+2.30
+These salted crackers go with any lunch meat or cheese, or alone!
+Unsalted Crackers
+2.30
+For your lunch meat and cheese!
+Cheese Crackers
+4.00
+Cheesy crackers for your hungry stomach.
+Strawberry Yogurt
+4.00
+Real strawberries in your very fresh, organic yogurt in a cup!
+Peanut Butter Bites
+2.80
+Bite-sized peanut butter treats!
+Veggie Chips
+2.00
+Healthier than potato chips! Made of various veggies including tomatoes, green beans, and eggplants!
+2
+*****DRINK MACHINE
+578.50
+11
+Orange Juice
+39
+Apple Cider
+52
+Grape Soda
+35
+Water
+81
+Soda Water
+78
+Fruit Punch
+30
+Fat Tire
+36
+Orange Soda
+28
+Peach Soda
+39
+Pina Colada
+31
+Green Tea
+39
+*****SNACK MACHINE
+637.50
+11
+Mint Gum
+100
+Potato Chips
+65
+Protein Bar
+33
+Chocolate
+55
+Apples
+40
+Salted Crackers
+40
+Unsalted Crackers
+28
+Cheese Crackers
+50
+Strawberry Yogurt
+60
+Peanut Butter Bites
+31
+Veggie Chips
+53
